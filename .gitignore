@@ -1,0 +1,28 @@
+# Router backups and configuration exports
+backups/
+backup/
+*.tar.gz
+*.tar
+*.ubi
+*.bin
+*.itb
+*.img
+*.mtd
+*.dump
+
+# Private credentials and keys
+*.key
+*.pem
+*.p12
+*.pfx
+*.ovpn
+*.conf.private
+.env
+
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+~$*.docx
+
